@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "5pnVUH9xljI=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\LM.Sanchez\\source\\repos\\AIAPI\\AIAPI\\AIAPI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.0\\microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\8.0.0\\microsoft.extensions.logging.abstractions.8.0.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\microsoft.openapi\\1.6.14\\microsoft.openapi.1.6.14.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\npgsql\\8.0.5\\npgsql.8.0.5.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\openai\\2.0.0\\openai.2.0.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\restsharp\\112.1.0\\restsharp.112.1.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore\\6.6.2\\swashbuckle.aspnetcore.6.6.2.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore.annotations\\6.9.0\\swashbuckle.aspnetcore.annotations.6.9.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.9.0\\swashbuckle.aspnetcore.swagger.6.9.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.9.0\\swashbuckle.aspnetcore.swaggergen.6.9.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.6.2\\swashbuckle.aspnetcore.swaggerui.6.6.2.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\system.clientmodel\\1.1.0\\system.clientmodel.1.1.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\system.diagnostics.diagnosticsource\\6.0.1\\system.diagnostics.diagnosticsource.6.0.1.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\LM.Sanchez\\.nuget\\packages\\system.text.json\\6.0.9\\system.text.json.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
