@@ -159,9 +159,9 @@ namespace AIAPI.Controllers
                 var tablesDB = new NpgsqlCommand("SELECT CONCAT(table_schema, '.', table_name) AS full_table_name " +
                                                  "FROM information_schema.tables WHERE table_type = 'BASE TABLE' AND table_name NOT LIKE 'pg_%' AND table_name NOT LIKE 'sql_%' " +
                                                  "ORDER BY full_table_name;", connection).ExecuteReader();
-                // Table           Column(Type)       Values
-                Dictionary<string, Dictionary<string, List<string>>> tables = new Dictionary<string, Dictionary<string, List<string>>>();
-
+                // Table           Column(Type)
+                Dictionary<string, List<string>> tables = new Dictionary<string, List<string>>();
+                
                 while (tablesDB.Read())
                 {
                     if (!tables.ContainsKey(tablesDB.GetString(0)))
@@ -178,41 +178,23 @@ namespace AIAPI.Controllers
                                                       "LEFT JOIN information_schema.table_constraints tc ON kcu.constraint_name = tc.constraint_name AND kcu.table_schema = tc.table_schema AND kcu.table_name = tc.table_name " +
                                                       "WHERE c.table_schema = '" + tableName.Substring(0, tableName.IndexOf('.')) + "' AND c.table_name = '" + tableName.Remove(0, tableName.IndexOf('.') + 1) + "'" +
                                                       "ORDER BY c.column_name;", connection).ExecuteReader();
-
-                    Dictionary<string, List<string>> columns = new Dictionary<string, List<string>>();
-
+                
+                    List<string> columns = new List<string>();
+                
                     while (columnsDB.Read())
                     {
                         string columnInfo = columnsDB.GetString(0) + "(" + columnsDB.GetString(1) + ")";
                         if (!columnsDB.GetString(2).Equals(""))
                             columnInfo = columnsDB.GetString(0) + "(" + columnsDB.GetString(1) + ") (" + columnsDB.GetString(2) + ")";
-
-                        if (!columns.ContainsKey(columnInfo))
-                        {   //     Name(Type)(Key)  Values
-                            columns.Add(columnInfo, null);
-
+                
+                        if (!columns.Contains(columnInfo))
+                        {   //      Name(Type)(Key)
+                            columns.Add(columnInfo);
+                
                             tables[tableName] = columns;
                         }
                     }
                     columnsDB.Close();
-                    // Values
-                    foreach (string columnName in columns.Keys)
-                    {
-                        var valuesDB = new NpgsqlCommand("SELECT " + columnName.Substring(0, columnName.IndexOf('(')) + " FROM " + tableName + " LIMIT 1", connection).ExecuteReader();
-
-                        List<string> values = new List<string>();
-
-                        while (valuesDB.Read())
-                        {
-                            if (!values.Contains(valuesDB.GetValue(0).ToString()))
-                            {   //         Value
-                                values.Add(valuesDB.GetValue(0).ToString());
-
-                                columns[columnName] = values;
-                            }
-                        }
-                        valuesDB.Close();
-                    }
                 }
                 var opcions = new JsonSerializerOptions
                 {
@@ -222,7 +204,7 @@ namespace AIAPI.Controllers
                 string json = System.Text.Json.JsonSerializer.Serialize(tables, opcions);
 
                 // Creates context to modify AI's behavior
-                string context = "You're a database assistant, I'll send you requests and you'll return me the necessary PostgeSQL query to do my request, don't use more words, just return the SQL. " +
+                string context = "You're a database assistant, I'll send you requests and you'll return a PostgeSQL query to do my request and if what I request can't be found on the database, tell me, but don't use more words. " +
                                  "This is the database: " +
                                  json +
                                  "\nAnd this is my request: ";
