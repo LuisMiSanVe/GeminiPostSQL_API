@@ -1,3 +1,4 @@
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/AI_DB_REST_API/tree/spanish)
 # 🤖 AI-Assisted REST API for PostgreSQL
 
 This REST API uses Google's AI 'Gemini 1.5 Flash' to make queries to PostgreSQL databases.  
