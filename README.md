@@ -22,7 +22,7 @@ Google allows free use of this API without adding billing information, but there
 In Google AI Studio, you can monitor the AI's usage by clicking 'View usage data' in the 'Plan' column where your projects are displayed. I recommend monitoring the 'Quota and system limits' tab and sorting by 'actual usage percentage,' as it provides the most detailed information.
 
 You now have everything needed to make the API work.  
-Simply replace the default values in the 'database' string in `AIAPI/Controllers/AIController.cs` with your database information, and place your API Key in the 'apiKey' string.
+Simply replace the default values in the 'database' string in [AIAPI/Controllers/AIController.cs](https://github.com/LuisMiSanVe/AI_DB_REST_API/blob/main/AIAPI/Controllers/AIController.cs) with your database information, and place your API Key in the 'apiKey' string.
 
 ## 📖 About the REST API
 
