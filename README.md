@@ -1,4 +1,4 @@
-> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/AIPostgreAssistant/tree/spanish)
+> [See in spanish/Ver en español](https://github.com/LuisMiSanVe/AIPostgreAssistant_API/tree/spanish)
 # 🤖 AI-Assisted REST API for PostgreSQL
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
@@ -9,7 +9,7 @@
 [![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://visualstudio.microsoft.com/)
 
 >[!NOTE]
-> This is the REST API version meant for servers or to use Swagger as client interface. There is a [WinForms](https://github.com/LuisMiSanVe/AIPostgreAssistant_API/tree/winforms) version meant for client use only.
+> This is the REST API version meant for servers or to use Swagger as client interface. There is a [WinForms]() version meant for client use only.
 
 This REST API uses Google's AI 'Gemini 1.5 Flash' to make queries to PostgreSQL databases.  
 The AI interprets natural language into SQL queries using two different methods, each with its pros and cons.
