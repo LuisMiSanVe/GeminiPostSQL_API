@@ -8,6 +8,9 @@
 [![image](https://img.shields.io/badge/Google%20Gemini-8E75B2?style=for-the-badge&logo=googlegemini&logoColor=white)](https://aistudio.google.com/app/apikey)
 [![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://visualstudio.microsoft.com/)
 
+>[!NOTE]
+> This is the REST API version meant for servers or to use Swagger as client interface. There is a [WinForms](https://github.com/LuisMiSanVe/AIPostgreAssistant/tree/winforms) version meant for client use only.
+
 This REST API uses Google's AI 'Gemini 1.5 Flash' to make queries to PostgreSQL databases.  
 The AI interprets natural language into SQL queries using two different methods, each with its pros and cons.
 
