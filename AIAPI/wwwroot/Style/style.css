@@ -1,0 +1,14 @@
+div.topbar {
+    background-color: #9071E9 !important;
+}
+.swagger-ui .topbar .download-url-wrapper .select-label select {
+    border: 2px solid #7370DB;
+}
+.swagger-ui .info .title small.version-stamp {
+    background-color: #7969DA;
+}
+.header {
+    background-color: #9071E9;
+    color: white;
+    display: block;
+}

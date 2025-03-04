@@ -15,8 +15,9 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\Img\" />
-    <Folder Include="wwwroot\Style\" />
+    <Content Update="wwwroot\Style\style.css">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
 
 </Project>
