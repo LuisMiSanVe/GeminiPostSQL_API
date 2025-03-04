@@ -2,7 +2,7 @@
 
 <img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/GeminiPostSQL/GeminiPostSQL_banner.png" style="width: 100%; height: auto;" alt="GeminiPostSQL Banner">
 
-# <img src="https://github.com/LuisMiSanVe/GeminiPostSQL_API/blob/main/AIAPI/wwwroot/Img/Favicon.png" width="40" alt="GeminiPostSQL Logo"> GeminiPostSQL API | REST API para PostgreSQL Asistida por IA
+# <img src="https://github.com/LuisMiSanVe/GeminiPostSQL_API/blob/main/AIAPI/wwwroot/Img/favicon.png" width="40" alt="GeminiPostSQL Logo"> GeminiPostSQL API | REST API para PostgreSQL Asistida por IA
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
 [![image](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white)](https://dotnet.microsoft.com/en-us/learn/dotnet/what-is-dotnet)
 [![image](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)](https://www.postgresql.org/)
