@@ -1,6 +1,6 @@
 > [See in spanish/Ver en español](https://github.com/LuisMiSanVe/GeminiPostSQL_API/blob/main/README.es.md)
 
-<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/GeminiPostSQL/GeminiPostSQL_banner.png" style="width: 100%; height: auto;" alt="GeminiPostSQL Banner">
+<img src="https://github.com/LuisMiSanVe/LuisMiSanVe/blob/main/Resources/GeminiPostSQL/GeminiPostSQLAPI_banner.png" style="width: 100%; height: auto;" alt="GeminiPostSQL Banner">
 
 # <img src="https://github.com/LuisMiSanVe/GeminiPostSQL_API/blob/main/AIAPI/wwwroot/Img/favicon.png" width="40" alt="GeminiPostSQL Logo"> GeminiPostSQL API | AI-Assisted REST API for PostgreSQL
 [![image](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)](https://dotnet.microsoft.com/en-us/languages/csharp)
