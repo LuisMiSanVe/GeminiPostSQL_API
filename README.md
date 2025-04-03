@@ -14,7 +14,7 @@
 >[!NOTE]
 > This is the REST API version meant for servers with Swagger. There is a [WinForms](https://github.com/LuisMiSanVe/GeminiPostSQL/tree/main) version meant for client use and a [ChatBot](https://github.com/LuisMiSanVe/GeminiPostSQL_ChatBot/tree/main) in Blazor for web clients.
 
-This REST API uses Google's AI 'Gemini 1.5 Flash' to make queries to PostgreSQL databases.  
+This REST API uses Google's AI 'Gemini 2.0 Flash' to make queries to PostgreSQL databases.  
 The AI interprets natural language into SQL queries using two different methods, each with its pros and cons.
 
 ## 📋 Prerequisites
@@ -59,5 +59,5 @@ The API has one Controller with two endpoints:
 - Other Tools:
   - [PostgreSQL](https://www.postgresql.org/) (16.3)
   - [pgAdmin 4](https://www.pgadmin.org/) (8.9)
-  - Gemini API Key (1.5 Flash)
+  - Gemini API Key (2.0 Flash)
 - Recommended IDE: [Visual Studio](https://visualstudio.microsoft.com/) 2022
