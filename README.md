@@ -38,7 +38,7 @@ Simply replace the default values in the 'database' string in [AIAPI/Controllers
 ## 📖 About the REST API
 The API has one Controller with two endpoints:
 
-- **AIDatabaseMapping**  
+- **[AIDatabaseMapping](https://gist.github.com/LuisMiSanVe/2da8e2d932a06ef408b3ee8468d0d820)**  
   This maps the entire database into a JSON that Gemini analyzes to return a table with the requested data.  
   Due to the nature of this method, larger databases may overwhelm the system's resources. To prevent this, there's a parameter to limit how many rows Gemini will learn from.  
   The data returned by AIDatabaseMapping is AI-generated, so some data may be fabricated. To verify this, there is a parameter that allows the AI to generate the equivalent SQL query, which you can run on the PostgreSQL Server to check the accuracy of the data.
