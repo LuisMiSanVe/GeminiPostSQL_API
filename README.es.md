@@ -41,7 +41,7 @@ Simpemente reemplaza los valores por defecto del string 'database' en [AIAPI/Con
 
 La API tiene un Controlador con dos endpoints:
 
-- **AIDatabaseMapping**  
+- **[AIDatabaseMapping](https://gist.github.com/LuisMiSanVe/2da8e2d932a06ef408b3ee8468d0d820)**  
   Mapea la base de datos entera en un JSON la cual Gemini analiza para devolver la tabla que correspondría la solicitud enviada.  
   Debido a la naturaleza del método, bases de datos muy grandes puedes sobrepasar los recursos del sistema. Para prevenir esto, hay parametros para limitar que tantas filas aprende Gemini.  
   Toda la información recogida está generada directamente por la IA, por lo que es posible que haya información inventada. Para verificarlo, hay un parametro que hace que la IA genere la SQL necesaria para que devuelva esa tabla, la cual puedes correr en tu servidor PostgreSQL para comprobarla vericidad de los datos.
