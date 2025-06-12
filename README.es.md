@@ -12,7 +12,7 @@
 [![image](https://img.shields.io/badge/Visual_Studio-5C2D91?style=for-the-badge&logo=visual%20studio&logoColor=white)](https://visualstudio.microsoft.com/)
 
 >[!NOTE]
-> Esta es la REST API pensada para servidores con Swagger. Hay una versión de [WinForms](https://github.com/LuisMiSanVe/GeminiPostSQL/blob/main/README.es.md) pensada solo para ser usada como cliente y un [ChatBot](https://github.com/LuisMiSanVe/GeminiPostSQL_ChatBot/tree/main) de Blazor como cliente web.
+> Esta es la REST API pensada para servidores con Swagger. Hay una versión de [WinForms](https://github.com/LuisMiSanVe/GeminiPostSQL/blob/main/README.es.md) pensada solo para ser usada como cliente, un [ChatBot](https://github.com/LuisMiSanVe/GeminiPostSQL_ChatBot/tree/main) de Blazor como cliente web y un paquete [NuGet](https://github.com/LuisMiSanVe/GeminiPostSQL_NuGet/tree/main) para desarrolladores.
 
 Esta REST API usa la IA de Google 'Gemini 2.0 Flash' para generar consultas a bases de datos PostgreSQL.  
 La IA convierte lenguaje natural a consultas SQL usando dos métodos diferentes, cada uno con sus ventajas y desventajas.
